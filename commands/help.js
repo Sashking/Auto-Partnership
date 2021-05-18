@@ -22,10 +22,9 @@ module.exports = {
 								**\`${prefix}partner-channel\`** - set channel for other partners
 								**\`${prefix}help\`** - list of all commands
 								**\`${prefix}ping\`** - current ping of bot
-
-								*Contact <@512670031247573005> to report any server*
 							`
 						)
+			.addField('⁣', '[Invite me to your server](https://discord.com/api/oauth2/authorize?client_id=843206273154940958&permissions=8&scope=bot) `|` Contact <@512670031247573005> for further help')
             .setColor('ffaa00')
 		message.channel.send(embed)
 		},
